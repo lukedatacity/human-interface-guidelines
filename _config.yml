@@ -1,0 +1,31 @@
+title: The Data City HIG
+remote_theme: just-the-docs/just-the-docs
+color_scheme: the-data-city
+logo: "/assets/images/logo.svg"
+
+# Site settings
+url: ""
+baseurl: ""
+
+# Required for GitHub Metadata plugin
+repository: TheDataCity/human-interface-guidelines
+
+# Just the Docs settings
+search_enabled: true
+aux_links:
+  "View Source": https://github.com/TheDataCity/human-interface-guidelines
+
+# Collections
+collections:
+  guidelines:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: guidelines
+    values:
+      layout: default
+      nav_order: 1
